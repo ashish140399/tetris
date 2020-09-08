@@ -116,7 +116,7 @@ body{
   color: #000;
   text-decoration: none;
   scroll-behavior: smooth;
-  background-color: #090d15;
+  background-color: #0f0a15;
 }
 
 p{
@@ -141,7 +141,7 @@ p{
   top: 0;
   left: 0;
   z-index: -1;
-  background-color: #131521;
+  background-color: #160f1f;
 }
 
 
@@ -220,7 +220,7 @@ p{
   width: 8%;
   float: left;
   height: 100vh;
-  background-color: #0a0e15;
+  background-color: #0f0a15;
 }
 
 .sidenav-logo,
@@ -283,10 +283,7 @@ p{
   transform: skewX(-10deg);
   border-radius: 10px;
   box-shadow: 0px 0 12px rgba(203,209,240,0.30);
-  background: rgb(154,222,234);
-  background: -moz-linear-gradient(45deg, rgba(154,222,234,1) 0%, rgba(55,153,205,1) 35%, rgba(212,130,255,1) 80%, rgba(249,146,255,1) 100%);
-  background: -webkit-linear-gradient(45deg, rgba(154,222,234,1) 0%,rgba(55,153,205,1) 35%,rgba(212,130,255,1) 80%,rgba(249,146,255,1) 100%); 
-  background: linear-gradient(45deg, rgba(154,222,234,1) 0%,rgba(55,153,205,1) 35%,rgba(212,130,255,1) 80%,rgba(249,146,255,1) 100%);
+  background-image: linear-gradient(45deg, #417eee 0%, #9541c9 55%, #fd3d63 100%);
 }
 
 .sidenav-list li.active a:before,
@@ -363,7 +360,7 @@ p{
   align-items: center;
   font-size: 15px;
   font-weight: normal;
-  color: #72819f;
+  color: #a09ab3;
   transition: all 0.4s ease;
 }
 .top-paly-lsit li a:focus,
@@ -438,7 +435,7 @@ p{
   z-index: -1;
   transform: skewX(-8deg);
   border-radius: 10px;
-  background-color: #191d2d;
+  background-color: #251935;
 }
 .top-notification a img{
   margin-right: 15px;
@@ -499,9 +496,7 @@ p{
   transition: all 0.4s ease;
   border-radius: 10px;
   box-shadow: 0px 0 12px rgba(203,209,240,0.30);
-  background: -moz-linear-gradient(45deg, rgba(154,222,234,1) 0%, rgba(55,153,205,1) 35%, rgba(212,130,255,1) 80%, rgba(249,146,255,1) 100%);
-  background: -webkit-linear-gradient(45deg, rgba(154,222,234,1) 0%,rgba(55,153,205,1) 35%,rgba(212,130,255,1) 80%,rgba(249,146,255,1) 100%); 
-  background: linear-gradient(45deg, rgba(154,222,234,1) 0%,rgba(55,153,205,1) 35%,rgba(212,130,255,1) 80%,rgba(249,146,255,1) 100%);
+  background-image: linear-gradient(45deg, #417eee 0%, #9541c9 55%, #fd3d63 100%);
 }
 .top-social li a:hover:before{
   background: #191d2d;
@@ -538,7 +533,7 @@ p{
   border: 2px solid #202431;
 }
 .top-detail li span{
-  color: #6d7c99;
+  color: #a09ab3;
   margin-bottom: 5px;
   display: block;
   font-size: 15px;
@@ -566,9 +561,7 @@ p{
   z-index: 1;
   border-radius: 5px;
   transform: skewX(-10deg);
-  background: -moz-linear-gradient(45deg, rgba(154,222,234,1) 0%, rgba(55,153,205,1) 35%, rgba(212,130,255,1) 80%, rgba(249,146,255,1) 100%);
-  background: -webkit-linear-gradient(45deg, rgba(154,222,234,1) 0%,rgba(55,153,205,1) 35%,rgba(212,130,255,1) 80%,rgba(249,146,255,1) 100%);
-  background: linear-gradient(45deg, rgba(154,222,234,1) 0%,rgb(91, 186, 236) 35%,rgba(212,130,255,1) 80%,rgba(249,146,255,1) 100%);
+ background-image: linear-gradient(45deg, #417eee 0%, #9541c9 55%, #fd3d63 100%);
 }
 
 .top-user .btn{
@@ -647,20 +640,23 @@ p{
 }
 .tab-ind-wrapper{
   width: 27%;
-  background-color: #121420;
+  background-color: #170f1f;
 }
 .img-ind-wrapper{
   width: 42%;
   background-color: #191d2d;
+  background-image: url('../images/center_bg.png');
+  background-size: 100% 100%;
+  z-index: 20
 }
 .chat-ind-wrapper{
   width: 27%;
   margin-right: 0;
-  background-color: #121420;
+  background-color: #170f1f;
 }
 
 .img-ind-wrapper{
-  padding: 25px;
+  padding: 0px;
  overflow-y:none;
   padding-bottom: 0;
 }
@@ -686,7 +682,7 @@ p{
 .tab-ind-wrapper .nav-tabs{
   padding: 0px 20px 0;
   border-radius: 13px 13px 0px 0px; 
-  background-color: #191d2d;
+  background-color: #261a35;
   border-bottom: none;
 }
 .tab-ind-wrapper .nav-tabs>li{
@@ -704,7 +700,7 @@ p{
   display: flex;
   align-items: center;
   position: relative;
-  color: #72819f;
+  color: #a09ab3;
   transition: all 0.4s ease-in-out;
   text-transform: uppercase;
   background-color: transparent;
@@ -766,13 +762,13 @@ table.dataTable thead > tr > th {
     padding-right: 8px;
 }
 
-.tab-table .table tbody tr:nth-child(2n) td{
-  background-color: #191d2d;
+.tab-table .table tbody tr:nth-child(2n+1) td{
+  background-color: #251935;
 }
-.tab-table .table tbody tr:nth-child(2n) td:last-child{
+.tab-table .table tbody tr:nth-child(2n+1) td:last-child{
   border-radius: 0px 14px 14px 0px;
 }
-.tab-table .table tbody tr:nth-child(2n) td:first-child{
+.tab-table .table tbody tr:nth-child(2n+1) td:first-child{
   border-radius: 14px 0px 0px 14px;
 }
 .tab-table .table tbody tr td{
@@ -872,7 +868,7 @@ table.dataTable td {
   display: table;
   padding: 30px;
   border-radius: 13px 13px 0px 0px; 
-  background-color: #191d2d;
+  background-color: #251935;
   border-bottom: none;
 }
 .chat-head h4{
@@ -927,8 +923,8 @@ table.dataTable td {
   right: -20px;
   margin-top: -24px;
   border-radius: 50%;
-  border: 6px solid #131521;
-  background-color: #191d2d;
+  border: 6px solid #170f20;
+  background-color: #342744;
 }
 
 .chat-message{
@@ -979,7 +975,7 @@ table.dataTable td {
 .chat-msg-blk .chat-time span{
   font-size: 13px;
   font-weight: 500;
-  color: #72819f;
+  color: #a09ab3;
   float: right;
 }
 .chat-msg{
@@ -987,16 +983,16 @@ table.dataTable td {
   display: block;
   padding: 20px;
   border-radius: 17px;
-  background-color: #191d2d;
+  background-color: #231931;
 }
 .chat-msg p{
   font-size: 13px;
   font-weight: 500;
-  color: #72819f;
+  color: #a09ab3;
   margin-bottom: 10px;
 }
 .chat-msg p strong{
-  color: #9dabc7;
+  color: #a09ab3;
 }
 .chat-msg p .ct-txt-img{
   display: inline-block;
@@ -1051,7 +1047,7 @@ table.dataTable td {
   align-items: center;
   justify-content: center;
   border-radius: 50%;
-  background-color: #22273a;
+  background-color: #2b1f3b;
 }
 .ar-down .dot{
   content: '.';
@@ -1084,7 +1080,7 @@ table.dataTable td {
   bottom: 0;
   left: 0;
   border-radius: 0px 0px 13px 13px; 
-  background-color: #191d2d;
+  background-color: #251935;
 }
 .chat-text-box input::placeholder{
   color: #72819f;
@@ -1299,7 +1295,7 @@ hr {
   -moz-user-select: none;
   /*background: #090D15;*/
   border-radius: 6px;
-  width: 450px;
+  width: 550px;
   height: 450px;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -2092,7 +2088,7 @@ hr {
   width: 180px;
   text-align: center;
   font-size: 12px !important;
-  color: #ff1233;
+  color: #ba84dc;
   font-weight: 500;
   background-image: url('../images/bottomRed.png');
   background-size: 100% 100%;
@@ -2149,7 +2145,7 @@ hr {
   left: 0;
   width: 100%;
   height: 100%;
-  background: #0e101a;
+  background: #0f0a15;
   z-index: -1;
   transform: skewX(10deg);
   border-radius: 10px
@@ -2219,7 +2215,7 @@ hr {
   left: 0;
   width: 100%;
   height: 100%;
-  background: #2A2F43;
+  background: #3b2a4f;
   z-index: -1;
   transform: skewX(-10deg);
   border-radius: 10px
@@ -2247,7 +2243,7 @@ hr {
 
 .gridControlsInnerBottom .gridControlTimer{
 	color: #fff;
-	font-size: 16px;
+	font-size: 14px;
 	font-weight: 600;
 	margin: 10px 5px
 }
